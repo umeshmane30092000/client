@@ -7,7 +7,10 @@ const RegisterComplete = ({ history }) => {
   const [password, setPassword] = useState("");
 
   useEffect(() => {
-    setEmail(window.localStorage.getItem("emailForRegistration"));
+    const storedEmail= setEmail(window.localStorage.getItem("emailForRegistration"));
+    if (storedEmail) {
+      setEmail(storedEmail);
+    }
     // console.log(window.location.href);
     // console.log(window.localStorage.getItem("emailForRegistration"));
   }, []);
@@ -52,7 +55,11 @@ const RegisterComplete = ({ history }) => {
 
   const completeRegistrationForm = () => (
     <form onSubmit={handleSubmit}>
-      <input type="email" className="form-control" value={email} disabled />
+      <input type="email" 
+      className="form-control" 
+      value={email} 
+      onChange={(e) => setEmail(e.target.value)}
+       />
 
       <input
         type="password"
