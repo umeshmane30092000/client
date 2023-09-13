@@ -98,7 +98,7 @@ const ProductCreate = () => {
           {loading ? (
             <LoadingOutlined className="text-danger h1" />
           ) : (
-            <h4>Product create</h4>
+            <h4>Sevice / Product create</h4>
           )}
           <hr />
 
