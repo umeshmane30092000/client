@@ -20,10 +20,10 @@ const ProductCard = ({ product }) => {
       }
       actions={[
         <Link to={`/product/${slug}`}>
-          <EyeOutlined className="text-warning" /> <br /> View Service/Product
+          <EyeOutlined className="text-warning" /> <br /> View Service
         </Link>,
         <>
-          <ShoppingCartOutlined className="text-danger" /> <br /> Add to Cart/Book service
+          <ShoppingCartOutlined className="text-danger" /> <br /> Book service
         </>,
       ]}
     >
