@@ -34,8 +34,8 @@ const initialState = {
     //     "https://res.cloudinary.com/dcqjrwaoi/image/upload/v1599480913/ho6wnp7sugyemnmtoogf.jpg",
     // },
   ],
-  colors: ["Black", "Brown", "Silver", "White", "Blue"],
-  brands: ["Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
+  colors: ["No color it is service","Black", "Brown", "Silver", "White", "Blue"],
+  brands: ["No Brand it is local service","Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
   color: "White",
   brand: "Apple",
 };

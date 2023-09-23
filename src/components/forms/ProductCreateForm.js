@@ -78,7 +78,7 @@ const ProductCreateForm = ({
       </div>
 
       <div className="form-group">
-        <label>Quantity</label>
+        <label>Quantity / Days </label>
         <input
           type="number"
           name="quantity"
