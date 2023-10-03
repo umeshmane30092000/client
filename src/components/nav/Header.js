@@ -45,7 +45,7 @@ const Header = () => {
       </Item>
 
       <Item key="shop" icon={<ShoppingOutlined />}>
-        <Link to="/shop">Shop</Link>
+        <Link to="/shop">ServiceShop</Link>
       </Item>
 
       {!user && (
