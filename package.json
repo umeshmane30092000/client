@@ -12,6 +12,7 @@
     "firebase": "^7.19.0",
     "lodash": "^4.17.20",
     "react": "^18.2.0",
+    "react-datepicker": "^3.2.2",
     "react-dom": "^18.2.0",
     "react-image-file-resizer": "^0.3.7",
     "react-modal-image": "^2.5.0",
