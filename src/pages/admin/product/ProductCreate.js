@@ -9,14 +9,14 @@ import FileUpload from "../../../components/forms/FileUpload";
 import { LoadingOutlined } from "@ant-design/icons";
 
 const initialState = {
-  title: "Macbook Pro",
-  description: "This is the best Apple product",
-  price: "45000",
+  title: "",
+  description: "",
+  price: "",
   categories: [],
   category: "",
   subs: [],
   shipping: "Yes",
-  quantity: "50",
+  quantity: "",
   images: [
     // {
     //   public_id: "jwrzeubemmypod99e8lz",
@@ -35,9 +35,9 @@ const initialState = {
     // },
   ],
   colors: ["No color it is service","Black", "Brown", "Silver", "White", "Blue"],
-  brands: ["No Brand it is local service","Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
-  color: "White",
-  brand: "Apple",
+  brands: ["No Brand it is local service","Apple", "Samsung", "Microsoft", "Lenovo", "ASUS" ,"Desktop" ],
+  color: "",
+  brand: "",
 };
 
 const ProductCreate = () => {
